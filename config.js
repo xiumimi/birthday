@@ -1,23 +1,8 @@
 // 霸都丶傲天 2019年10月10日 https://github.com/AJLoveChina/birthday
-<head>
-		<script language="JavaScript">
-			while(true) {
-				var password = "";
-				password = prompt('请输入密码 (本网站需输入密码才可进入):', '');
-				if(password != '693') {
-					alert("密码不正确,无法进入本站!!");
-				} else {
-					break;
-				}
-			}
-		</script>
-</head>
 var config = {
-    // 句子的长度可以任意， 你可以写十句话， 二十句话都可以
-    // 每句话尽量不要超过15个字,不然展示效果可能不太好
     texts: [
-        "送给我",      //这里,每句话结尾的最后一个逗号必须是英文的哦!! 很重要哦!!
-        "心爱的小可爱",  // 同上...
+        "送给我",      
+        "心爱的小可爱",  
         "今天是你的生日",
         "这是我们在一起的",
         "第三个生日了哦",
